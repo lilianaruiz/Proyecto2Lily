@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="container1">
+
+        <img src="Images/logo-ucamp-dark.png" alt="">
+        
+        <p>Proyecto No.2: Desarrollo de software CRUD</p>
+
+    </header>
+    
+    <h1 class="text-center titulo">Proyecto 2</h1>
+    <div class="container">
+        <div id="contenido" class="caja-principal"> 
+            <div class="agregar-tarea">
+                <form id="nueva-tarea" class="formulario-tarea">
+                    <h2 class="sub-title">Nueva tarea</h2>
+                    <div class="">
+                        <label class="">Nombre tarea:</label>
+                        <div class="">
+                            <input type="text" id="nombre-tarea" name="tarea" class="form-control" placeholder="Tarea">
+                        </div>
+                    </div>
+                    <div class="">
+                        <label class="">Otra cosa:</label>
+                        <div class="">
+                            <input type="text" id="detalle-tarea" name="detalle" class="form-control"  placeholder="Detalle">
+                        </div>
+                    </div>
+                    
+                    <div class="">
+                            <button type="submit" id="button-submit" class="btn">Crear tarea</button>
+                    </div>
+                </form>
+            </div>
+            <div class="caja-lista">
+                <h2 id="administra" class="sub-title">Lista</h2>
+                <ul id="tareas" class="lista-tareas"></ul>
+            </div>
+        </div> <!--.row-->
+    </div><!--.container-->
+
+     <footer class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>About us</h2>
+                <a href="#">Blog</a>
+                <a href="#">Demo</a>
+                <a href="#">Customers</a>
+                <a href="#">Investors</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>Contact us</h2>
+                <a href="#">Jobs</a>
+                <a href="#">Support</a>
+                <a href="#">Contact</a>
+                <a href="#">Sponsorships</a> 
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Social Media</h2>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Twitter</a>
+            </div>
+
+            <div class="footer-email-form">
+                <h2>Join our newsletter</h2>
+                <input type="email" placeholder="Enter your email address" id="footer-email">
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </div>
+        </div>
+     </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
